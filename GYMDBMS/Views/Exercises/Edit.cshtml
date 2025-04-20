@@ -1,0 +1,74 @@
+﻿@*@*@*@*@model GYMDBMS.Models.Exercise
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>Edit</h1>
+
+<h4>Exercise</h4>
+<hr />*@
+@*<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="ExerciseId" />
+            <div class="form-group">
+                <label asp-for="Name" class="control-label"></label>
+                <input asp-for="Name" class="form-control" />
+                <span asp-validation-for="Name" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Instruction" class="control-label"></label>
+                <input asp-for="Instruction" class="form-control" />
+                <span asp-validation-for="Instruction" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>*@
+@*<div class="card">
+    <div class="card-header">
+        <h2>@Model.Name</h2>
+    </div>
+    <div class="card-body">
+        <p>@Model.Instruction</p>
+        <img src="~/Images/@(Model.ExerciseId).jpg" class="card-img-top" alt="@Model.Name" />
+    </div>
+    <div class="card-footer">
+        <div class="btn-group" role="group" aria-label="Exercise actions">
+            <a class="btn btn-primary" href="@Url.Action("Details", "Exercises", new { id = Model.ExerciseId })">Details</a>
+            <a class="btn btn-warning" href="@Url.Action("Edit", "Exercises", new { id = Model.ExerciseId })">Edit</a>
+            <form asp-action="Delete" asp-route-id="@Model.ExerciseId" method="post" onsubmit="return confirm('Are you sure you want to delete this exercise?');">
+                <button type="submit" class="btn btn-danger">Delete</button>
+            </form>
+        </div>
+    </div>
+</div>
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}*@
+*@*@*@
+@model Exercise
+
+<h1>Edit Exercise</h1>
+
+<form asp-action="Edit">
+    <!-- Input fields for Exercise properties -->
+    <div>
+        <label asp-for="Name"></label>
+        <input asp-for="Name" />
+    </div>
+    <div>
+        <label asp-for="Instruction"></label>
+        <input asp-for="Instruction" />
+    </div>
+
+    <button type="submit">Save</button>
+</form>

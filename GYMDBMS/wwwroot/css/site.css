@@ -1,0 +1,57 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+#myCarousel {
+    height: 100vh;
+    overflow: hidden;
+}
+
+.carousel-item {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+    .carousel-item img {
+        object-fit: cover;
+        height: 100%;
+        width: 100%;
+    }
+
+.carousel-caption {
+    bottom: 0;
+    top: auto;
+}
+.card {
+    width: 200px; /* Adjust as needed */
+    height: auto;
+    display: inline-block;
+    margin: 10px; /* Adjust spacing between cards */
+}
+
+/*.card-img-top {
+    width: 100%;
+    height: auto;
+}
+*/
+.card-img-top {
+    width: 200px; /* Set the width */
+    height: 200px; /* Set the height */
+    object-fit: cover; /* Ensure the image covers the specified dimensions */
+}

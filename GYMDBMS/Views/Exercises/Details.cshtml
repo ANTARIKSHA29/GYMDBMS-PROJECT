@@ -1,0 +1,143 @@
+﻿
+
+@*@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>Exercise</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Name)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Name)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Instruction)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Instruction)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model?.ExerciseId">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>*@
+
+@*@model GYMDBMS.Models.Exercise
+<h1>Exercise Details</h1>
+
+<div>
+    <!-- Display Exercise properties -->
+    <h2>@Model.Name</h2>
+    <p>@Model.Instruction</p>
+</div>
+
+<div>
+    <!-- Link to Edit Exercise -->
+    <a asp-action="Edit" asp-route-id="@Model.ExerciseId">Edit</a>
+    <!-- Form to delete Exercise -->
+    <form asp-action="Delete" asp-route-id="@Model.ExerciseId" method="post">
+        <button type="submit">Delete</button>
+    </form>
+</div>*@
+
+@model GYMDBMS.Models.Exercise
+
+<html>
+<head>
+    <title>Exercise Details</title>
+    <style>
+        /* Apply background image to the entire page */
+        body {
+            background-image: url("/Images/exerciseback.jpg");
+            background-size: cover; /* Cover the entire viewport */
+            background-position: center; /* Center the background image */
+            background-repeat: no-repeat; /* Prevent background image from repeating */
+            margin: 0; /* Remove default margin */
+            padding: 0; /* Remove default padding */
+            color: white; /* Set text color to white for better visibility */
+            font-family: Arial, sans-serif; /* Set font family */
+        }
+
+        /* Adjust title size and color */
+        h1 {
+            font-size: 28px; /* Set title font size */
+            color: black; /* Set title text color */
+            font-weight: bold; /* Make title text bold */
+            text-align: center; /* Center align the title */
+            margin-top: 20px; /* Add top margin */
+        }
+
+        /* Container for Exercise details */
+        .exercise-details {
+            background-color: rgba(255, 255, 255, 0.7); /* Set background color with opacity */
+            border-radius: 10px; /* Add border radius */
+            padding: 20px; /* Add padding */
+            margin: 20px auto; /* Center the container */
+            max-width: 600px; /* Set maximum width */
+        }
+
+        /* Exercise name style */
+        .exercise-name {
+            font-size: 24px; /* Set font size */
+            font-weight: bold; /* Make text bold */
+            margin-bottom: 10px; /* Add bottom margin */
+        }
+
+        /* Exercise instruction style */
+        .exercise-instruction {
+            font-size: 24px; /* Set font size */
+            margin-bottom: 20px; /* Add bottom margin */
+        }
+
+        /* Button styles */
+        .btn {
+            padding: 10px 20px; /* Add padding */
+            border: none; /* Remove border */
+            border-radius: 5px; /* Add border radius */
+            cursor: pointer; /* Add cursor pointer */
+            transition: background-color 0.3s; /* Add transition effect */
+            text-decoration: none; /* Remove underline */
+            display: inline-block; /* Display as inline block */
+            margin-right: 10px; /* Add right margin */
+        }
+
+        .btn-primary {
+            background-color: #007bff; /* Set button background color */
+            color: white; /* Set button text color */
+        }
+
+            .btn-primary:hover {
+                background-color: #0056b3; /* Darken button background color on hover */
+            }
+
+        .btn-secondary {
+            background-color: #6c757d; /* Set button background color */
+            color: white; /* Set button text color */
+        }
+
+            .btn-secondary:hover {
+                background-color: #5a6268; /* Darken button background color on hover */
+            }
+    </style>
+</head>
+<body>
+    <h1>Exercise Details</h1>
+
+    <div class="exercise-details">
+        <div class="exercise-name">@Model.Name</div>
+        <div class="exercise-instruction">@Model.Instruction</div>
+
+        <!-- Button to Edit Exercise -->
+        <a asp-action="Edit" asp-route-id="@Model.ExerciseId" class="btn btn-primary">Edit</a>
+        <!-- Button to go Back to List -->
+        <a asp-action="Index" class="btn btn-secondary">Back to List</a>
+    </div>
+</body>
+</html>

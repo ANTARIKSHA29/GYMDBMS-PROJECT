@@ -1,0 +1,159 @@
+﻿@*@model GYMDBMS.Models.Client
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>Client</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Name)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Name)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.ContactNumer)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.ContactNumer)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.FitnessGoal)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.FitnessGoal)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Trainer)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Trainer.TrainerId)
+        </dd>
+    </dl>
+</div>
+<div>
+    @Html.ActionLink("Edit", "Edit", new { /* id = Model.PrimaryKey */ }) |
+    <a asp-action="Index">Back to List</a>
+</div>
+*@
+@model GYMDBMS.Models.Client
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<head>
+    <!-- Add the CSS code for the background image here -->
+    <style>
+        /* Apply background image to the entire page */
+        body {
+            background-image: url("/Images/clientspage.jpg");
+            background-size: cover; /* Cover the entire viewport */
+            background-position: center; /* Center the background image */
+            background-repeat: no-repeat; /* Prevent background image from repeating */
+            margin: 0; /* Remove default margin */
+            padding: 0; /* Remove default padding */
+            color: white; /* Set text color to white */
+        }
+
+        /* Adjust title size and color */
+        h1, h4 {
+            font-size: calc(48px - 30%); /* Reduce title font size by 30% */
+            color: white; /* Set title text color to white */
+            font-weight: bold; /* Make title text bold */
+        }
+
+        /* Adjust definition list styles */
+        dl {
+            margin-top: 20px; /* Add margin to the top of definition list */
+            margin-bottom: 20px; /* Add margin to the bottom of definition list */
+        }
+
+        dt, dd {
+            padding: 10px 0; /* Add padding to definition term and description */
+        }
+
+        dt {
+            font-weight: bold; /* Make definition term bold */
+            font-size: 24px; /* Set definition term font size */
+        }
+
+        dd {
+            font-size: 24px; /* Set definition description font size */
+        }
+
+        /* Adjust button styles */
+        .btn-primary {
+            background-color: white; /* Set button background color to white */
+            color: black; /* Set button text color to black */
+            padding: 15px 30px; /* Increase button padding */
+            font-size: calc(24px - 30%); /* Reduce button font size by 30% */
+            border-radius: 5px; /* Add border radius to button */
+            border: 1px solid transparent; /* Add border to button */
+            transition: all 0.3s ease; /* Add transition effect for smooth hover */
+            text-decoration: none; /* Remove underline from button */
+            margin-right: 10px; /* Add margin to the right of button */
+        }
+
+            /* Hover effect for buttons */
+            .btn-primary:hover {
+                background-color: #f2f2f2; /* Lighten button background color on hover */
+                color: black; /* Change button text color on hover */
+            }
+
+        /* Style for the link */
+        a {
+            color: white; /* Set link color to white */
+            font-size: 24px; /* Set link font size */
+            text-decoration: none; /* Remove underline from links */
+            transition: color 0.3s; /* Add transition effect for smooth hover */
+        }
+
+            /* Hover effect for links */
+            a:hover {
+                color: lightgray; /* Change link color on hover */
+            }
+    </style>
+</head>
+
+<h1>Details</h1>
+
+<div>
+    <h4>Client</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Name)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Name)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.ContactNumer)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.ContactNumer)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.FitnessGoal)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.FitnessGoal)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Trainer)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Trainer.TrainerId)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" class="btn btn-primary">Edit</a> <!-- Apply button styles -->
+    <a asp-action="Index" class="btn btn-primary">Back to List</a> <!-- Apply button styles -->
+</div>

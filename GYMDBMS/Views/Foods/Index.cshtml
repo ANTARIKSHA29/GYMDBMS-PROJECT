@@ -1,0 +1,168 @@
+﻿@*@model IEnumerable<GYMDBMS.Models.Food>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Name)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Calories)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Protien)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Carbohydrates)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Fat)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Calories)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Protien)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Carbohydrates)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Fat)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.FoodId">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.FoodId">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.FoodId">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
+*@
+@model IEnumerable<GYMDBMS.Models.Food>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<head>
+    <!-- Add the CSS code for the background image here -->
+    <style>
+        /* Apply background image to the entire page */
+        body {
+            background-image: url("/Images/foodback.jpg");
+            background-size: cover; /* Cover the entire viewport */
+            background-position: center; /* Center the background image */
+            background-repeat: repeat; /* Prevent background image from repeating */
+            margin: 0; /* Remove default margin */
+            padding: 0; /* Remove default padding */
+            color: white; /* Set text color to white for better visibility */
+        }
+
+        /* Adjust title size and color */
+        h1 {
+            font-size: 48px; /* Increase title font size */
+            color:black; /* Set title text color to white */
+        }
+
+        /* Adjust table header and row font size and color */
+        th, td {
+            font-size: 24px; /* Increase font size */
+            color: black; /* Set text color to white */
+            font-weight: bold;
+        }
+
+        /* Adjust button styles */
+        .btn {
+            background-color: white; /* Set button background color to white */
+            color: deepskyblue; /* Set button text color to black */
+            padding: 10px 20px; /* Increase button padding */
+            font-size: 24px; /* Increase button font size */
+            border-radius: 5px; /* Add border radius to button */
+            border: 1px solid transparent; /* Add border to button */
+            transition: all 0.3s ease; /* Add transition effect for smooth hover */
+            text-decoration: none; /* Remove underline from button */
+            margin-right: 10px; /* Add margin to button */
+        }
+
+            /* Hover effect for buttons */
+            .btn:hover {
+                background-color: #f2f2f2; /* Lighten button background color on hover */
+                color:navy; /* Change button text color on hover */
+            }
+    </style>
+</head>
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create" class="btn">Create New</a> <!-- Apply button styles -->
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Name)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Calories)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Protien)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Carbohydrates)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Fat)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Name)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Calories)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Protien)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Carbohydrates)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Fat)
+                </td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.FoodId" class="btn">Edit</a> |
+                    <a asp-action="Details" asp-route-id="@item.FoodId" class="btn">Details</a> |
+                    <a asp-action="Delete" asp-route-id="@item.FoodId" class="btn">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

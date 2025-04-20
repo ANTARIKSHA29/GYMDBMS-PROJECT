@@ -1,0 +1,119 @@
+﻿@*@model GYMDBMS.Models.Trainer
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>Trainer</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Name)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Name)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.ContactNumber)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.ContactNumber)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Specialty)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Specialty)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model?.TrainerId">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>
+*@
+@model GYMDBMS.Models.Trainer
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<head>
+    <!-- Add the CSS code for the background image here -->
+    <style>
+        /* Apply background image to the entire page */
+        body {
+            background-image: url("/Images/gymwall7.jpg");
+            background-size: cover; /* Cover the entire viewport */
+            background-position: center; /* Center the background image */
+            background-repeat: no-repeat; /* Prevent background image from repeating */
+            margin: 0; /* Remove default margin */
+            padding: 0; /* Remove default padding */
+        }
+
+        /* Adjust title size and color */
+        h1 ,h4{
+            font-size: calc(48px - 30%); /* Reduce title font size by 30% */
+            color: deepskyblue; /* Set title text color to dark blue */
+            font-weight: bold; /* Make title text bold */
+        }
+
+        /* Adjust text size and color */
+        .col-sm-2 {
+            font-size: 24px; /* Set font size for labels */
+            color: deepskyblue; /* Set text color to dark blue */
+        }
+
+        .col-sm-10 {
+            font-size: 24px; /* Set font size for displayed data */
+            color:deepskyblue;
+        }
+
+        /* Adjust link styles */
+        a {
+            color: deepskyblue; /* Set link color to dark blue */
+            font-size: 24px; /* Set link font size */
+            text-decoration: none; /* Remove underline from links */
+            transition: color 0.3s; /* Add transition effect for smooth hover */
+        }
+
+            /* Hover effect for links */
+            a:hover {
+                color: #3366cc; /* Change link color on hover */
+            }
+    </style>
+</head>
+
+<h1>Details</h1>
+
+<div>
+    <h4>Trainer</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Name)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Name)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.ContactNumber)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.ContactNumber)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Specialty)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Specialty)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model?.TrainerId">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>

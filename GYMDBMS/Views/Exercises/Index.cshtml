@@ -1,0 +1,271 @@
+﻿@*@model IEnumerable<Exercise>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<!-- Include Owl Carousel CSS -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+
+<div class="container">
+    <h1 class="text-center">Exercises</h1>
+    <!-- Container for the slider -->
+    <div class="owl-carousel owl-theme">
+        @foreach (var exercise in Model)
+        {
+            <!-- Slide item -->
+            <div class="item">
+                <div class="exercise">
+                    <h2>@exercise.Name</h2>
+                    <p>@exercise.Instruction</p>
+                    <!-- Image for the exercise -->
+                    <img src="~/Images/@(exercise.ExerciseId).jpg" alt="@exercise.Name" />
+                </div>
+            </div>
+        }
+    </div>
+</div>
+
+<!-- Include jQuery (required for Owl Carousel) -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<!-- Include Owl Carousel JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+<script>
+    // Initialize Owl Carousel
+    $(document).ready(function () {
+        $(".owl-carousel").owlCarousel({
+            loop: true, // Enable loop mode
+            margin: 10, // Margin between items
+            nav: true, // Show navigation buttons
+            responsive: {
+                0: {
+                    items: 1 // Number of items to show on small screens
+                },
+                600: {
+                    items: 3 // Number of items to show on medium screens
+                },
+                1000: {
+                    items: 5 // Number of items to show on large screens
+                }
+            }
+        });
+    });
+</script>
+*@
+
+@*
+@model List<GYMDBMS.Models.Exercise>
+
+<html>
+<head>
+    <title>Exercise Details</title>
+    <style>
+        /* CSS for setting background image */
+        body {
+            background-image: url('@Url.Content("~/Images/exerciseback.jpg")');
+            background-size: cover;
+            background-position: center;
+            background-repeat: repeat;
+            height: 100vh; /* Ensure the background covers the full height of the viewport */
+            font-size: .75em;
+            font-family: Verdana, Helvetica, Sans-Serif;
+            margin: 0; /* Remove default margin */
+            padding: 0; /* Remove default padding */
+            color: #696969;
+        }
+
+        .exercise-content {
+            /* Add styles for the content area if needed */
+            /* This will ensure that the content is centered on the page */
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: flex-start;
+            padding: 20px;
+        }
+
+        .card {
+            width: 20%; /* Each card takes up 20% of the container width */
+            margin: 10px; /* Add some margin between cards */
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            overflow: hidden;
+        }
+
+        .card-image {
+            width: 100%;
+            height: 200px;
+            background-size: cover;
+            background-position: center;
+        }
+
+        .card-content {
+            padding: 10px;
+        }
+
+        .card-actions {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 10px 10px 10px;
+        }
+
+        .btn {
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            color: white;
+            cursor: pointer;
+        }
+
+        .btn-primary {
+            background-color: #007bff;
+        }
+
+        .btn-secondary {
+            background-color: #6c757d;
+        }
+
+        .btn-danger {
+            background-color: #dc3545;
+        }
+    </style>
+</head>*@
+@*<body>
+    <div class="exercise-content">
+        <div class="card">
+            <div class="card-image" style="background-image: url('@Url.Content($"~/Images/{Model.ExerciseId}.jpg")')"></div>
+            <div class="card-content">
+                <h2>@Model.Name</h2>
+                <p>@Model.Instruction</p>
+            </div>
+            <div class="card-actions">
+                <a asp-action="Edit" asp-route-id="@Model.ExerciseId" class="btn btn-primary">Edit</a>
+                <a asp-action="Details" asp-route-id="@Model.ExerciseId" class="btn btn-secondary">Details</a>
+                <a asp-action="Delete" asp-route-id="@Model.ExerciseId" class="btn btn-danger">Delete</a>
+            </div>
+        </div>
+    </div>
+</body>
+
+*@
+@*
+<body>
+    <div class="exercise-content">
+        @foreach (var exercise in Model)
+        {
+            <div class="card">
+                <div class="card-image" style="background-image: url('@Url.Content($"~/Images/{exercise.ExerciseId}.jpg")')"></div>
+                <div class="card-content">
+                    <h2>@exercise.Name</h2>
+                    <p>@exercise.Instruction</p>
+                </div>
+                <div class="card-actions">
+                    <a asp-action="Edit" asp-route-id="@exercise.ExerciseId" class="btn btn-primary">Edit</a>
+                    <a asp-action="Details" asp-route-id="@exercise.ExerciseId" class="btn btn-secondary">Details</a>
+                    <a asp-action="Delete" asp-route-id="@exercise.ExerciseId" class="btn btn-danger">Delete</a>
+                </div>
+            </div>
+        }
+    </div>
+</body>
+</html>*@
+@model List<GYMDBMS.Models.Exercise>
+
+<html>
+<head>
+    <title>Exercise Details</title>
+    <style>
+        /* CSS for setting background image */
+        body {
+            background-image: url('@Url.Content("~/Images/exerciseback.jpg")');
+            background-size: cover;
+            background-position: center;
+            background-repeat: repeat;
+            height: 100vh; /* Ensure the background covers the full height of the viewport */
+            font-size: .75em;
+            font-family: Verdana, Helvetica, Sans-Serif;
+            margin: 0; /* Remove default margin */
+            padding: 0; /* Remove default padding */
+            color: #696969;
+        }
+
+        .exercise-content {
+            /* Add styles for the content area if needed */
+            /* This will ensure that the content is centered on the page */
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: flex-start;
+            padding: 20px;
+        }
+
+        .card {
+            width: 20%; /* Each card takes up 20% of the container width */
+            margin: 10px; /* Add some margin between cards */
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            overflow: hidden;
+        }
+
+        .card-image {
+            width: 100%;
+            height: 200px;
+            background-size: cover;
+            background-position: center;
+        }
+
+        .card-content {
+            padding: 10px;
+        }
+
+        .card-actions {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 10px 10px 10px;
+        }
+
+        .btn {
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            color: white;
+            cursor: pointer;
+        }
+
+        .btn-primary {
+            background-color: #007bff;
+        }
+
+        .btn-secondary {
+            background-color: #6c757d;
+        }
+
+        .btn-danger {
+            background-color: #dc3545;
+        }
+    </style>
+</head>
+<body>
+    <div class="exercise-content">
+        @foreach (var exercise in Model)
+        {
+            <div class="card">
+                <div class="card-image" style="background-image: url('@Url.Content($"~/Images/{exercise.ExerciseId}.jpg")')"></div>
+                <div class="card-content">
+                    <h2>@exercise.Name</h2>
+                    <p>@exercise.Instruction</p>
+                </div>
+                <div class="card-actions">
+                    <a asp-action="Details" asp-route-id="@exercise.ExerciseId" class="btn btn-secondary">Details</a>
+                </div>
+            </div>
+        }
+    </div>
+</body>
+</html>

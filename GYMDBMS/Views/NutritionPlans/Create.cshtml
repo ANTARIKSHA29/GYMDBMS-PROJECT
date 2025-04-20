@@ -1,0 +1,150 @@
+﻿@*@model GYMDBMS.Models.NutritionPlan
+
+@{
+    ViewData["Title"] = "Create";
+}
+<head>
+
+    <!-- Add the CSS code for the background image here -->
+
+    
+
+</head>
+
+<h1>Create</h1>
+
+<h4>NutritionPlan</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="PlanId" class="control-label"></label>
+                <input asp-for="PlanId" class="form-control" />
+                <span asp-validation-for="PlanId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Name" class="control-label"></label>
+                <input asp-for="Name" class="form-control" />
+                <span asp-validation-for="Name" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Description" class="control-label"></label>
+                <input asp-for="Description" class="form-control" />
+                <span asp-validation-for="Description" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
+*@
+@model GYMDBMS.Models.NutritionPlan
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<head>
+    <!-- Add the CSS code for the background image here -->
+    <style>
+        /* Apply background image to the entire page */
+        body {
+            background-image: url("/Images/nutritioncreate.jpg");
+            background-size: cover; /* Cover the entire viewport */
+            background-position: center; /* Center the background image */
+            background-repeat: no-repeat; /* Prevent background image from repeating */
+            margin: 0; /* Remove default margin */
+            padding: 0; /* Remove default padding */
+        }
+
+        /* Adjust title size and color */
+        h1 {
+            font-size: calc(48px - 30%); /* Reduce title font size by 30% */
+            color: darkblue; /* Set title text color to white */
+            font-weight: bold; /* Make title text bold */
+        }
+
+        /* Adjust form input field styles */
+        .form-control {
+            width: 100%; /* Set input field width to 100% */
+            padding: 10px; /* Add padding to input fields */
+            margin-bottom: 10px; /* Add margin to bottom of input fields */
+            font-size: calc(24px - 30%); /* Reduce input field font size by 30% */
+            border-radius: 5px; /* Add border radius to input fields */
+        }
+
+        /* Adjust button styles */
+        .btn-primary {
+            background-color: white; /* Set button background color to white */
+            color:black; /* Set button text color to black */
+            padding: 15px 30px; /* Increase button padding */
+            font-size: calc(24px - 30%); /* Reduce button font size by 30% */
+            border-radius: 5px; /* Add border radius to button */
+            border: 1px solid transparent; /* Add border to button */
+            transition: all 0.3s ease; /* Add transition effect for smooth hover */
+        }
+
+            /* Hover effect for buttons */
+            .btn-primary:hover {
+                background-color: #f2f2f2; /* Lighten button background color on hover */
+                color: black;
+                font/* Change button text color on hover */
+            }
+
+        /* Set text color to white for better visibility */
+        .text-danger {
+            color: white;
+        }
+    </style>
+</head>
+
+<h1>Create</h1>
+
+<h4>NutritionPlan</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="PlanId" class="control-label"></label>
+                <input asp-for="PlanId" class="form-control" />
+                <span asp-validation-for="PlanId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Name" class="control-label"></label>
+                <input asp-for="Name" class="form-control" />
+                <span asp-validation-for="Name" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Description" class="control-label"></label>
+                <input asp-for="Description" class="form-control" />
+                <span asp-validation-for="Description" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

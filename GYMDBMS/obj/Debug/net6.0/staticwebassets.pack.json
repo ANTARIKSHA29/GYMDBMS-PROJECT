@@ -1,0 +1,641 @@
+{
+  "Files": [
+    {
+      "Id": "G:\\DBMSPROJECT\\GYMDBMSSSLN\\GYMDBMS\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\Skyhawk Fitness Club.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Skyhawk Fitness Club.bundle.scp.css"
+    },
+    {
+      "Id": "G:\\DBMSPROJECT\\GYMDBMSSSLN\\GYMDBMS\\wwwroot\\Images\\701.jpg",
+      "PackagePath": "staticwebassets\\Images\\701.jpg"
+    },
+    {
+      "Id": "G:\\DBMSPROJECT\\GYMDBMSSSLN\\GYMDBMS\\wwwroot\\Images\\702.jpg",
+      "PackagePath": "staticwebassets\\Images\\702.jpg"
+    },
+    {
+      "Id": "G:\\DBMSPROJECT\\GYMDBMSSSLN\\GYMDBMS\\wwwroot\\Images\\703.jpg",
+      "PackagePath": "staticwebassets\\Images\\703.jpg"
+    },
+    {
+      "Id": "G:\\DBMSPROJECT\\GYMDBMSSSLN\\GYMDBMS\\wwwroot\\Images\\704.jpg",
+      "PackagePath": "staticwebassets\\Images\\704.jpg"
+    },
+    {
+      "Id": "G:\\DBMSPROJECT\\GYMDBMSSSLN\\GYMDBMS\\wwwroot\\Images\\705.jpg",
+      "PackagePath": "staticwebassets\\Images\\705.jpg"
+    },
+    {
+      "Id": "G:\\DBMSPROJECT\\GYMDBMSSSLN\\GYMDBMS\\wwwroot\\Images\\706.jpg",
+      "PackagePath": "staticwebassets\\Images\\706.jpg"
+    },
+    {
+      "Id": "G:\\DBMSPROJECT\\GYMDBMSSSLN\\GYMDBMS\\wwwroot\\Images\\707.jpg",
+      "PackagePath": "staticwebassets\\Images\\707.jpg"
+    },
+    {
+      "Id": "G:\\DBMSPROJECT\\GYMDBMSSSLN\\GYMDBMS\\wwwroot\\Images\\708.jpg",
+      "PackagePath": "staticwebassets\\Images\\708.jpg"
+    },
+    {
+      "Id": "G:\\DBMSPROJECT\\GYMDBMSSSLN\\GYMDBMS\\wwwroot\\Images\\709.jpg",
+      "PackagePath": "staticwebassets\\Images\\709.jpg"
+    },
+    {
+      "Id": "G:\\DBMSPROJECT\\GYMDBMSSSLN\\GYMDBMS\\wwwroot\\Images\\710.jpg",
+      "PackagePath": "staticwebassets\\Images\\710.jpg"
+    },
+    {
+      "Id": "G:\\DBMSPROJECT\\GYMDBMSSSLN\\GYMDBMS\\wwwroot\\Images\\711.jpg",
+      "PackagePath": "staticwebassets\\Images\\711.jpg"
+    },
+    {
+      "Id": "G:\\DBMSPROJECT\\GYMDBMSSSLN\\GYMDBMS\\wwwroot\\Images\\712.jpg",
+      "PackagePath": "staticwebassets\\Images\\712.jpg"
+    },
+    {
+      "Id": "G:\\DBMSPROJECT\\GYMDBMSSSLN\\GYMDBMS\\wwwroot\\Images\\713.jpg",
+      "PackagePath": "staticwebassets\\Images\\713.jpg"
+    },
+    {
+      "Id": "G:\\DBMSPROJECT\\GYMDBMSSSLN\\GYMDBMS\\wwwroot\\Images\\714.jpg",
+      "PackagePath": "staticwebassets\\Images\\714.jpg"
+    },
+    {
+      "Id": "G:\\DBMSPROJECT\\GYMDBMSSSLN\\GYMDBMS\\wwwroot\\Images\\715.jpg",
+      "PackagePath": "staticwebassets\\Images\\715.jpg"
+    },
+    {
+      "Id": "G:\\DBMSPROJECT\\GYMDBMSSSLN\\GYMDBMS\\wwwroot\\Images\\716.jpg",
+      "PackagePath": "staticwebassets\\Images\\716.jpg"
+    },
+    {
+      "Id": "G:\\DBMSPROJECT\\GYMDBMSSSLN\\GYMDBMS\\wwwroot\\Images\\717.jpg",
+      "PackagePath": "staticwebassets\\Images\\717.jpg"
+    },
+    {
+      "Id": "G:\\DBMSPROJECT\\GYMDBMSSSLN\\GYMDBMS\\wwwroot\\Images\\718.jpg",
+      "PackagePath": "staticwebassets\\Images\\718.jpg"
+    },
+    {
+      "Id": "G:\\DBMSPROJECT\\GYMDBMSSSLN\\GYMDBMS\\wwwroot\\Images\\719.jpg",
+      "PackagePath": "staticwebassets\\Images\\719.jpg"
+    },
+    {
+      "Id": "G:\\DBMSPROJECT\\GYMDBMSSSLN\\GYMDBMS\\wwwroot\\Images\\720.jpg",
+      "PackagePath": "staticwebassets\\Images\\720.jpg"
+    },
+    {
+      "Id": "G:\\DBMSPROJECT\\GYMDBMSSSLN\\GYMDBMS\\wwwroot\\Images\\721.jpg",
+      "PackagePath": "staticwebassets\\Images\\721.jpg"
+    },
+    {
+      "Id": "G:\\DBMSPROJECT\\GYMDBMSSSLN\\GYMDBMS\\wwwroot\\Images\\722.jpg",
+      "PackagePath": "staticwebassets\\Images\\722.jpg"
+    },
+    {
+      "Id": "G:\\DBMSPROJECT\\GYMDBMSSSLN\\GYMDBMS\\wwwroot\\Images\\723.jpg",
+      "PackagePath": "staticwebassets\\Images\\723.jpg"
+    },
+    {
+      "Id": "G:\\DBMSPROJECT\\GYMDBMSSSLN\\GYMDBMS\\wwwroot\\Images\\724.jpg",
+      "PackagePath": "staticwebassets\\Images\\724.jpg"
+    },
+    {
+      "Id": "G:\\DBMSPROJECT\\GYMDBMSSSLN\\GYMDBMS\\wwwroot\\Images\\725.jpg",
+      "PackagePath": "staticwebassets\\Images\\725.jpg"
+    },
+    {
+      "Id": "G:\\DBMSPROJECT\\GYMDBMSSSLN\\GYMDBMS\\wwwroot\\Images\\726.jpg",
+      "PackagePath": "staticwebassets\\Images\\726.jpg"
+    },
+    {
+      "Id": "G:\\DBMSPROJECT\\GYMDBMSSSLN\\GYMDBMS\\wwwroot\\Images\\727.jpg",
+      "PackagePath": "staticwebassets\\Images\\727.jpg"
+    },
+    {
+      "Id": "G:\\DBMSPROJECT\\GYMDBMSSSLN\\GYMDBMS\\wwwroot\\Images\\728.jpg",
+      "PackagePath": "staticwebassets\\Images\\728.jpg"
+    },
+    {
+      "Id": "G:\\DBMSPROJECT\\GYMDBMSSSLN\\GYMDBMS\\wwwroot\\Images\\729.jpg",
+      "PackagePath": "staticwebassets\\Images\\729.jpg"
+    },
+    {
+      "Id": "G:\\DBMSPROJECT\\GYMDBMSSSLN\\GYMDBMS\\wwwroot\\Images\\730.jpg",
+      "PackagePath": "staticwebassets\\Images\\730.jpg"
+    },
+    {
+      "Id": "G:\\DBMSPROJECT\\GYMDBMSSSLN\\GYMDBMS\\wwwroot\\Images\\731.jpg",
+      "PackagePath": "staticwebassets\\Images\\731.jpg"
+    },
+    {
+      "Id": "G:\\DBMSPROJECT\\GYMDBMSSSLN\\GYMDBMS\\wwwroot\\Images\\732.jpg",
+      "PackagePath": "staticwebassets\\Images\\732.jpg"
+    },
+    {
+      "Id": "G:\\DBMSPROJECT\\GYMDBMSSSLN\\GYMDBMS\\wwwroot\\Images\\733.jpg",
+      "PackagePath": "staticwebassets\\Images\\733.jpg"
+    },
+    {
+      "Id": "G:\\DBMSPROJECT\\GYMDBMSSSLN\\GYMDBMS\\wwwroot\\Images\\734.jpg",
+      "PackagePath": "staticwebassets\\Images\\734.jpg"
+    },
+    {
+      "Id": "G:\\DBMSPROJECT\\GYMDBMSSSLN\\GYMDBMS\\wwwroot\\Images\\735.jpg",
+      "PackagePath": "staticwebassets\\Images\\735.jpg"
+    },
+    {
+      "Id": "G:\\DBMSPROJECT\\GYMDBMSSSLN\\GYMDBMS\\wwwroot\\Images\\736.jpg",
+      "PackagePath": "staticwebassets\\Images\\736.jpg"
+    },
+    {
+      "Id": "G:\\DBMSPROJECT\\GYMDBMSSSLN\\GYMDBMS\\wwwroot\\Images\\737.jpg",
+      "PackagePath": "staticwebassets\\Images\\737.jpg"
+    },
+    {
+      "Id": "G:\\DBMSPROJECT\\GYMDBMSSSLN\\GYMDBMS\\wwwroot\\Images\\738.jpg",
+      "PackagePath": "staticwebassets\\Images\\738.jpg"
+    },
+    {
+      "Id": "G:\\DBMSPROJECT\\GYMDBMSSSLN\\GYMDBMS\\wwwroot\\Images\\739.jpg",
+      "PackagePath": "staticwebassets\\Images\\739.jpg"
+    },
+    {
+      "Id": "G:\\DBMSPROJECT\\GYMDBMSSSLN\\GYMDBMS\\wwwroot\\Images\\740.jpg",
+      "PackagePath": "staticwebassets\\Images\\740.jpg"
+    },
+    {
+      "Id": "G:\\DBMSPROJECT\\GYMDBMSSSLN\\GYMDBMS\\wwwroot\\Images\\741.jpg",
+      "PackagePath": "staticwebassets\\Images\\741.jpg"
+    },
+    {
+      "Id": "G:\\DBMSPROJECT\\GYMDBMSSSLN\\GYMDBMS\\wwwroot\\Images\\742.jpg",
+      "PackagePath": "staticwebassets\\Images\\742.jpg"
+    },
+    {
+      "Id": "G:\\DBMSPROJECT\\GYMDBMSSSLN\\GYMDBMS\\wwwroot\\Images\\743.jpg",
+      "PackagePath": "staticwebassets\\Images\\743.jpg"
+    },
+    {
+      "Id": "G:\\DBMSPROJECT\\GYMDBMSSSLN\\GYMDBMS\\wwwroot\\Images\\744.jpg",
+      "PackagePath": "staticwebassets\\Images\\744.jpg"
+    },
+    {
+      "Id": "G:\\DBMSPROJECT\\GYMDBMSSSLN\\GYMDBMS\\wwwroot\\Images\\745.jpg",
+      "PackagePath": "staticwebassets\\Images\\745.jpg"
+    },
+    {
+      "Id": "G:\\DBMSPROJECT\\GYMDBMSSSLN\\GYMDBMS\\wwwroot\\Images\\746.jpg",
+      "PackagePath": "staticwebassets\\Images\\746.jpg"
+    },
+    {
+      "Id": "G:\\DBMSPROJECT\\GYMDBMSSSLN\\GYMDBMS\\wwwroot\\Images\\747.jpg",
+      "PackagePath": "staticwebassets\\Images\\747.jpg"
+    },
+    {
+      "Id": "G:\\DBMSPROJECT\\GYMDBMSSSLN\\GYMDBMS\\wwwroot\\Images\\748.jpg",
+      "PackagePath": "staticwebassets\\Images\\748.jpg"
+    },
+    {
+      "Id": "G:\\DBMSPROJECT\\GYMDBMSSSLN\\GYMDBMS\\wwwroot\\Images\\749.jpg",
+      "PackagePath": "staticwebassets\\Images\\749.jpg"
+    },
+    {
+      "Id": "G:\\DBMSPROJECT\\GYMDBMSSSLN\\GYMDBMS\\wwwroot\\Images\\750.jpg",
+      "PackagePath": "staticwebassets\\Images\\750.jpg"
+    },
+    {
+      "Id": "G:\\DBMSPROJECT\\GYMDBMSSSLN\\GYMDBMS\\wwwroot\\Images\\751.jpg",
+      "PackagePath": "staticwebassets\\Images\\751.jpg"
+    },
+    {
+      "Id": "G:\\DBMSPROJECT\\GYMDBMSSSLN\\GYMDBMS\\wwwroot\\Images\\752.jpg",
+      "PackagePath": "staticwebassets\\Images\\752.jpg"
+    },
+    {
+      "Id": "G:\\DBMSPROJECT\\GYMDBMSSSLN\\GYMDBMS\\wwwroot\\Images\\753.jpg",
+      "PackagePath": "staticwebassets\\Images\\753.jpg"
+    },
+    {
+      "Id": "G:\\DBMSPROJECT\\GYMDBMSSSLN\\GYMDBMS\\wwwroot\\Images\\754.jpg",
+      "PackagePath": "staticwebassets\\Images\\754.jpg"
+    },
+    {
+      "Id": "G:\\DBMSPROJECT\\GYMDBMSSSLN\\GYMDBMS\\wwwroot\\Images\\755.jpg",
+      "PackagePath": "staticwebassets\\Images\\755.jpg"
+    },
+    {
+      "Id": "G:\\DBMSPROJECT\\GYMDBMSSSLN\\GYMDBMS\\wwwroot\\Images\\banner-bg.jpg",
+      "PackagePath": "staticwebassets\\Images\\banner-bg.jpg"
+    },
+    {
+      "Id": "G:\\DBMSPROJECT\\GYMDBMSSSLN\\GYMDBMS\\wwwroot\\Images\\breadcrumb-bg.jpg",
+      "PackagePath": "staticwebassets\\Images\\breadcrumb-bg.jpg"
+    },
+    {
+      "Id": "G:\\DBMSPROJECT\\GYMDBMSSSLN\\GYMDBMS\\wwwroot\\Images\\clientsback.jpg",
+      "PackagePath": "staticwebassets\\Images\\clientsback.jpg"
+    },
+    {
+      "Id": "G:\\DBMSPROJECT\\GYMDBMSSSLN\\GYMDBMS\\wwwroot\\Images\\clientspage.jpg",
+      "PackagePath": "staticwebassets\\Images\\clientspage.jpg"
+    },
+    {
+      "Id": "G:\\DBMSPROJECT\\GYMDBMSSSLN\\GYMDBMS\\wwwroot\\Images\\exe1.jpg",
+      "PackagePath": "staticwebassets\\Images\\exe1.jpg"
+    },
+    {
+      "Id": "G:\\DBMSPROJECT\\GYMDBMSSSLN\\GYMDBMS\\wwwroot\\Images\\exe2.jpg",
+      "PackagePath": "staticwebassets\\Images\\exe2.jpg"
+    },
+    {
+      "Id": "G:\\DBMSPROJECT\\GYMDBMSSSLN\\GYMDBMS\\wwwroot\\Images\\exe3.jpg",
+      "PackagePath": "staticwebassets\\Images\\exe3.jpg"
+    },
+    {
+      "Id": "G:\\DBMSPROJECT\\GYMDBMSSSLN\\GYMDBMS\\wwwroot\\Images\\exebackground.jpg",
+      "PackagePath": "staticwebassets\\Images\\exebackground.jpg"
+    },
+    {
+      "Id": "G:\\DBMSPROJECT\\GYMDBMSSSLN\\GYMDBMS\\wwwroot\\Images\\exerciseback.jpg",
+      "PackagePath": "staticwebassets\\Images\\exerciseback.jpg"
+    },
+    {
+      "Id": "G:\\DBMSPROJECT\\GYMDBMSSSLN\\GYMDBMS\\wwwroot\\Images\\foodback.jpg",
+      "PackagePath": "staticwebassets\\Images\\foodback.jpg"
+    },
+    {
+      "Id": "G:\\DBMSPROJECT\\GYMDBMSSSLN\\GYMDBMS\\wwwroot\\Images\\foodpage.jpg",
+      "PackagePath": "staticwebassets\\Images\\foodpage.jpg"
+    },
+    {
+      "Id": "G:\\DBMSPROJECT\\GYMDBMSSSLN\\GYMDBMS\\wwwroot\\Images\\gym2.jpg",
+      "PackagePath": "staticwebassets\\Images\\gym2.jpg"
+    },
+    {
+      "Id": "G:\\DBMSPROJECT\\GYMDBMSSSLN\\GYMDBMS\\wwwroot\\Images\\gym3.jpg",
+      "PackagePath": "staticwebassets\\Images\\gym3.jpg"
+    },
+    {
+      "Id": "G:\\DBMSPROJECT\\GYMDBMSSSLN\\GYMDBMS\\wwwroot\\Images\\gym4.jpg",
+      "PackagePath": "staticwebassets\\Images\\gym4.jpg"
+    },
+    {
+      "Id": "G:\\DBMSPROJECT\\GYMDBMSSSLN\\GYMDBMS\\wwwroot\\Images\\gym5.webp",
+      "PackagePath": "staticwebassets\\Images\\gym5.webp"
+    },
+    {
+      "Id": "G:\\DBMSPROJECT\\GYMDBMSSSLN\\GYMDBMS\\wwwroot\\Images\\gym6.webp",
+      "PackagePath": "staticwebassets\\Images\\gym6.webp"
+    },
+    {
+      "Id": "G:\\DBMSPROJECT\\GYMDBMSSSLN\\GYMDBMS\\wwwroot\\Images\\gymback.jpg",
+      "PackagePath": "staticwebassets\\Images\\gymback.jpg"
+    },
+    {
+      "Id": "G:\\DBMSPROJECT\\GYMDBMSSSLN\\GYMDBMS\\wwwroot\\Images\\gymbg.jpg",
+      "PackagePath": "staticwebassets\\Images\\gymbg.jpg"
+    },
+    {
+      "Id": "G:\\DBMSPROJECT\\GYMDBMSSSLN\\GYMDBMS\\wwwroot\\Images\\gymcaro.jpg",
+      "PackagePath": "staticwebassets\\Images\\gymcaro.jpg"
+    },
+    {
+      "Id": "G:\\DBMSPROJECT\\GYMDBMSSSLN\\GYMDBMS\\wwwroot\\Images\\gymlife-master.zip",
+      "PackagePath": "staticwebassets\\Images\\gymlife-master.zip"
+    },
+    {
+      "Id": "G:\\DBMSPROJECT\\GYMDBMSSSLN\\GYMDBMS\\wwwroot\\Images\\gymwall2.jpg",
+      "PackagePath": "staticwebassets\\Images\\gymwall2.jpg"
+    },
+    {
+      "Id": "G:\\DBMSPROJECT\\GYMDBMSSSLN\\GYMDBMS\\wwwroot\\Images\\gymwall3.jpg",
+      "PackagePath": "staticwebassets\\Images\\gymwall3.jpg"
+    },
+    {
+      "Id": "G:\\DBMSPROJECT\\GYMDBMSSSLN\\GYMDBMS\\wwwroot\\Images\\gymwall3.png",
+      "PackagePath": "staticwebassets\\Images\\gymwall3.png"
+    },
+    {
+      "Id": "G:\\DBMSPROJECT\\GYMDBMSSSLN\\GYMDBMS\\wwwroot\\Images\\gymwall4.jpg",
+      "PackagePath": "staticwebassets\\Images\\gymwall4.jpg"
+    },
+    {
+      "Id": "G:\\DBMSPROJECT\\GYMDBMSSSLN\\GYMDBMS\\wwwroot\\Images\\gymwall4.webp",
+      "PackagePath": "staticwebassets\\Images\\gymwall4.webp"
+    },
+    {
+      "Id": "G:\\DBMSPROJECT\\GYMDBMSSSLN\\GYMDBMS\\wwwroot\\Images\\gymwall5.jpg",
+      "PackagePath": "staticwebassets\\Images\\gymwall5.jpg"
+    },
+    {
+      "Id": "G:\\DBMSPROJECT\\GYMDBMSSSLN\\GYMDBMS\\wwwroot\\Images\\gymwall5.webp",
+      "PackagePath": "staticwebassets\\Images\\gymwall5.webp"
+    },
+    {
+      "Id": "G:\\DBMSPROJECT\\GYMDBMSSSLN\\GYMDBMS\\wwwroot\\Images\\gymwall7.jpg",
+      "PackagePath": "staticwebassets\\Images\\gymwall7.jpg"
+    },
+    {
+      "Id": "G:\\DBMSPROJECT\\GYMDBMSSSLN\\GYMDBMS\\wwwroot\\Images\\gymwall8.jpg",
+      "PackagePath": "staticwebassets\\Images\\gymwall8.jpg"
+    },
+    {
+      "Id": "G:\\DBMSPROJECT\\GYMDBMSSSLN\\GYMDBMS\\wwwroot\\Images\\gymwall9.jpg",
+      "PackagePath": "staticwebassets\\Images\\gymwall9.jpg"
+    },
+    {
+      "Id": "G:\\DBMSPROJECT\\GYMDBMSSSLN\\GYMDBMS\\wwwroot\\Images\\homepageback.jpg",
+      "PackagePath": "staticwebassets\\Images\\homepageback.jpg"
+    },
+    {
+      "Id": "G:\\DBMSPROJECT\\GYMDBMSSSLN\\GYMDBMS\\wwwroot\\Images\\meragym1.jpg",
+      "PackagePath": "staticwebassets\\Images\\meragym1.jpg"
+    },
+    {
+      "Id": "G:\\DBMSPROJECT\\GYMDBMSSSLN\\GYMDBMS\\wwwroot\\Images\\meragym2.jpg",
+      "PackagePath": "staticwebassets\\Images\\meragym2.jpg"
+    },
+    {
+      "Id": "G:\\DBMSPROJECT\\GYMDBMSSSLN\\GYMDBMS\\wwwroot\\Images\\meralogogymka.jpg",
+      "PackagePath": "staticwebassets\\Images\\meralogogymka.jpg"
+    },
+    {
+      "Id": "G:\\DBMSPROJECT\\GYMDBMSSSLN\\GYMDBMS\\wwwroot\\Images\\new.jpg",
+      "PackagePath": "staticwebassets\\Images\\new.jpg"
+    },
+    {
+      "Id": "G:\\DBMSPROJECT\\GYMDBMSSSLN\\GYMDBMS\\wwwroot\\Images\\nutritioncreate.jpg",
+      "PackagePath": "staticwebassets\\Images\\nutritioncreate.jpg"
+    },
+    {
+      "Id": "G:\\DBMSPROJECT\\GYMDBMSSSLN\\GYMDBMS\\wwwroot\\Images\\trainerback.jpg",
+      "PackagePath": "staticwebassets\\Images\\trainerback.jpg"
+    },
+    {
+      "Id": "G:\\DBMSPROJECT\\GYMDBMSSSLN\\GYMDBMS\\wwwroot\\Images\\trainerback2.jpg",
+      "PackagePath": "staticwebassets\\Images\\trainerback2.jpg"
+    },
+    {
+      "Id": "G:\\DBMSPROJECT\\GYMDBMSSSLN\\GYMDBMS\\wwwroot\\Images\\trainerback3.jpg",
+      "PackagePath": "staticwebassets\\Images\\trainerback3.jpg"
+    },
+    {
+      "Id": "G:\\DBMSPROJECT\\GYMDBMSSSLN\\GYMDBMS\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "G:\\DBMSPROJECT\\GYMDBMSSSLN\\GYMDBMS\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "G:\\DBMSPROJECT\\GYMDBMSSSLN\\GYMDBMS\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "G:\\DBMSPROJECT\\GYMDBMSSSLN\\GYMDBMS\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "G:\\DBMSPROJECT\\GYMDBMSSSLN\\GYMDBMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "G:\\DBMSPROJECT\\GYMDBMSSSLN\\GYMDBMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "G:\\DBMSPROJECT\\GYMDBMSSSLN\\GYMDBMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "G:\\DBMSPROJECT\\GYMDBMSSSLN\\GYMDBMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "G:\\DBMSPROJECT\\GYMDBMSSSLN\\GYMDBMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "G:\\DBMSPROJECT\\GYMDBMSSSLN\\GYMDBMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "G:\\DBMSPROJECT\\GYMDBMSSSLN\\GYMDBMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "G:\\DBMSPROJECT\\GYMDBMSSSLN\\GYMDBMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "G:\\DBMSPROJECT\\GYMDBMSSSLN\\GYMDBMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "G:\\DBMSPROJECT\\GYMDBMSSSLN\\GYMDBMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "G:\\DBMSPROJECT\\GYMDBMSSSLN\\GYMDBMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "G:\\DBMSPROJECT\\GYMDBMSSSLN\\GYMDBMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "G:\\DBMSPROJECT\\GYMDBMSSSLN\\GYMDBMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "G:\\DBMSPROJECT\\GYMDBMSSSLN\\GYMDBMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "G:\\DBMSPROJECT\\GYMDBMSSSLN\\GYMDBMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "G:\\DBMSPROJECT\\GYMDBMSSSLN\\GYMDBMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "G:\\DBMSPROJECT\\GYMDBMSSSLN\\GYMDBMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "G:\\DBMSPROJECT\\GYMDBMSSSLN\\GYMDBMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "G:\\DBMSPROJECT\\GYMDBMSSSLN\\GYMDBMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "G:\\DBMSPROJECT\\GYMDBMSSSLN\\GYMDBMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "G:\\DBMSPROJECT\\GYMDBMSSSLN\\GYMDBMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "G:\\DBMSPROJECT\\GYMDBMSSSLN\\GYMDBMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "G:\\DBMSPROJECT\\GYMDBMSSSLN\\GYMDBMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "G:\\DBMSPROJECT\\GYMDBMSSSLN\\GYMDBMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "G:\\DBMSPROJECT\\GYMDBMSSSLN\\GYMDBMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "G:\\DBMSPROJECT\\GYMDBMSSSLN\\GYMDBMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "G:\\DBMSPROJECT\\GYMDBMSSSLN\\GYMDBMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "G:\\DBMSPROJECT\\GYMDBMSSSLN\\GYMDBMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "G:\\DBMSPROJECT\\GYMDBMSSSLN\\GYMDBMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "G:\\DBMSPROJECT\\GYMDBMSSSLN\\GYMDBMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "G:\\DBMSPROJECT\\GYMDBMSSSLN\\GYMDBMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "G:\\DBMSPROJECT\\GYMDBMSSSLN\\GYMDBMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "G:\\DBMSPROJECT\\GYMDBMSSSLN\\GYMDBMS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "G:\\DBMSPROJECT\\GYMDBMSSSLN\\GYMDBMS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "G:\\DBMSPROJECT\\GYMDBMSSSLN\\GYMDBMS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "G:\\DBMSPROJECT\\GYMDBMSSSLN\\GYMDBMS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "G:\\DBMSPROJECT\\GYMDBMSSSLN\\GYMDBMS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "G:\\DBMSPROJECT\\GYMDBMSSSLN\\GYMDBMS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "G:\\DBMSPROJECT\\GYMDBMSSSLN\\GYMDBMS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "G:\\DBMSPROJECT\\GYMDBMSSSLN\\GYMDBMS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "G:\\DBMSPROJECT\\GYMDBMSSSLN\\GYMDBMS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "G:\\DBMSPROJECT\\GYMDBMSSSLN\\GYMDBMS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "G:\\DBMSPROJECT\\GYMDBMSSSLN\\GYMDBMS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "G:\\DBMSPROJECT\\GYMDBMSSSLN\\GYMDBMS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "G:\\DBMSPROJECT\\GYMDBMSSSLN\\GYMDBMS\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "G:\\DBMSPROJECT\\GYMDBMSSSLN\\GYMDBMS\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "G:\\DBMSPROJECT\\GYMDBMSSSLN\\GYMDBMS\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "G:\\DBMSPROJECT\\GYMDBMSSSLN\\GYMDBMS\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "G:\\DBMSPROJECT\\GYMDBMSSSLN\\GYMDBMS\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "G:\\DBMSPROJECT\\GYMDBMSSSLN\\GYMDBMS\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "G:\\DBMSPROJECT\\GYMDBMSSSLN\\GYMDBMS\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "G:\\DBMSPROJECT\\GYMDBMSSSLN\\GYMDBMS\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "G:\\DBMSPROJECT\\GYMDBMSSSLN\\GYMDBMS\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "G:\\DBMSPROJECT\\GYMDBMSSSLN\\GYMDBMS\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "G:\\DBMSPROJECT\\GYMDBMSSSLN\\GYMDBMS\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "G:\\DBMSPROJECT\\GYMDBMSSSLN\\GYMDBMS\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.Skyhawk Fitness Club.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.Skyhawk Fitness Club.props",
+      "PackagePath": "build\\Skyhawk Fitness Club.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.Skyhawk Fitness Club.props",
+      "PackagePath": "buildMultiTargeting\\Skyhawk Fitness Club.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.Skyhawk Fitness Club.props",
+      "PackagePath": "buildTransitive\\Skyhawk Fitness Club.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

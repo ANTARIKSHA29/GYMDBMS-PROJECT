@@ -1,0 +1,204 @@
+﻿@*@model GYMDBMS.Models.NutritionPlan
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>NutritionPlan</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Name)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Name)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Description)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Description)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model?.PlanId">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>
+*@
+
+@*@model GYMDBMS.Models.NutritionPlan
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<head>
+    <!-- Add the CSS code for the background image here -->
+    <style>
+        /* Apply background image to the entire page */
+        body {
+            background-image: url("/Images/nutritioncreate.jpg");
+            background-size: cover; /* Cover the entire viewport */
+            background-position: center; /* Center the background image */
+            background-repeat: no-repeat; /* Prevent background image from repeating */
+            margin: 0; /* Remove default margin */
+            padding: 0; /* Remove default padding */
+        }
+
+        /* Adjust title size and color */
+        h1 {
+            font-size: calc(48px - 30%); /* Reduce title font size by 30% */
+            color: darkblue; /* Set title text color to dark blue */
+            font-weight: bold; /* Make title text bold */
+        }
+
+        /* Adjust details section styles */
+        .row {
+            margin: 20px; /* Add margin to details section */
+            padding: 20px; /* Add padding to details section */
+            background-color: rgba(255, 255, 255, 0.8); /* Set background color with transparency */
+            border-radius: 10px; /* Add border radius to details section */
+        }
+
+        /* Adjust definition list styles */
+        .col-sm-2 {
+            font-size: calc(20px - 30%); /* Reduce definition list term font size by 30% */
+            color: darkblue; /* Set definition list term text color to dark blue */
+            font-weight: bold; /* Make definition list term text bold */
+        }
+
+        .col-sm-10 {
+            font-size: calc(26px - 30%); /* Reduce definition list description font size by 30% */
+            color: black; /* Set definition list description text color to black */
+        }
+
+        /* Adjust link styles */
+        a {
+            color: black; /* Set link text color to black */
+            font-weight: bold; /* Make link text bold */
+            text-decoration: none; /* Remove underline from links */
+            transition: all 0.3s ease; /* Add transition effect for smooth hover */
+        }
+
+            /* Hover effect for links */
+            a:hover {
+                color: darkblue; /* Change link text color on hover */
+            }
+    </style>
+</head>
+
+<h1>Details</h1>
+
+<div>
+    <h4>NutritionPlan</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Name)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Name)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Description)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Description)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model?.PlanId">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>
+*@
+@model GYMDBMS.Models.NutritionPlan
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<head>
+    <!-- Add the CSS code for the background image here -->
+    <style>
+        /* Apply background image to the entire page */
+        body {
+            background-image: url("/Images/nutritioncreate.jpg");
+            background-size: cover; /* Cover the entire viewport */
+            background-position: center; /* Center the background image */
+            background-repeat: no-repeat; /* Prevent background image from repeating */
+            margin: 0; /* Remove default margin */
+            padding: 0; /* Remove default padding */
+        }
+
+        /* Adjust title size and color */
+        h1 {
+            font-size: calc(48px - 30%); /* Reduce title font size by 30% */
+            color: darkblue; /* Set title text color to dark blue */
+            font-weight: bold; /* Make title text bold */
+        }
+
+        /* Adjust details section styles */
+        .row {
+            margin: 20px; /* Add margin to details section */
+            padding: 20px; /* Add padding to details section */
+            background-color: rgba(255, 255, 255, 0.8); /* Set background color with transparency */
+            border-radius: 10px; /* Add border radius to details section */
+        }
+
+        /* Adjust definition list styles */
+        .col-sm-2 {
+            font-size: calc(20px - 30%); /* Reduce definition list term font size by 30% */
+            color: darkblue; /* Set definition list term text color to dark blue */
+            font-weight: bold; /* Make definition list term text bold */
+        }
+
+        .col-sm-10 {
+            font-size: 20px; /* Set definition list description font size to 20px */
+            color: black; /* Set definition list description text color to black */
+            word-wrap: break-word; /* Wrap long words in description to prevent overflow */
+        }
+
+        /* Adjust link styles */
+        a {
+            color: black; /* Set link text color to black */
+            font-weight: bold; /* Make link text bold */
+            text-decoration: none; /* Remove underline from links */
+            transition: all 0.3s ease; /* Add transition effect for smooth hover */
+        }
+
+            /* Hover effect for links */
+            a:hover {
+                color: darkblue; /* Change link text color on hover */
+            }
+    </style>
+</head>
+
+<h1>Details</h1>
+
+<div>
+    <h4>NutritionPlan</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Name)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Name)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Description)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Description)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model?.PlanId">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>

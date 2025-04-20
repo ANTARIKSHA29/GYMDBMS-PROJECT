@@ -1,0 +1,211 @@
+﻿@*@model GYMDBMS.Models.Workout
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>Workout</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Name)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Name)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Description)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Description)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model?.WorkoutId">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>
+*@
+
+@*@model GYMDBMS.Models.Workout
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<head>
+    <!-- Add the CSS code for the background image here -->
+    <style>
+        /* Apply background image to the entire page */
+        body {
+            background-image: url("/Images/gymwall9.jpg");
+            background-size: cover; /* Cover the entire viewport */
+            background-position: center; /* Center the background image */
+            background-repeat: no-repeat; /* Prevent background image from repeating */
+            margin: 0; /* Remove default margin */
+            padding: 0; /* Remove default padding */
+            color: white; /* Set text color to white for better visibility */
+        }
+
+        /* Adjust title size and color */
+        h1, h4 {
+            font-size: calc(48px - 30%); /* Reduce title font size by 30% */
+            color: white; /* Set title text color to white */
+            font-weight: bold; /* Make title text bold */
+        }
+
+        /* Adjust text size and color */
+        .col-sm-2 {
+            font-size: 24px; /* Set font size for labels */
+            color: white; /* Set text color to white */
+        }
+
+        .col-sm-10 {
+            font-size: 24px; /* Set font size for displayed data */
+            color: white;
+        }
+
+        /* Adjust link styles */
+        a {
+            color: white; /* Set link color to white */
+            font-size: 24px; /* Set link font size */
+            text-decoration: none; /* Remove underline from links */
+            transition: color 0.3s; /* Add transition effect for smooth hover */
+        }
+
+            /* Hover effect for links */
+            a:hover {
+                color: lightgray; /* Change link color on hover */
+            }
+    </style>
+</head>
+
+<h1>Details</h1>
+
+<div>
+    <h4>Workout</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Name)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Name)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Description)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Description)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model?.WorkoutId" class="btn">Edit</a> |
+    <a asp-action="Index" class="btn">Back to List</a>
+</div>
+*@
+@model GYMDBMS.Models.Workout
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<head>
+    <!-- Add the CSS code for the background image here -->
+    <style>
+        /* Apply background image to the entire page */
+        body {
+            background-image: url("/Images/gymwall9.jpg");
+            background-size: cover; /* Cover the entire viewport */
+            background-position: center; /* Center the background image */
+            background-repeat: no-repeat; /* Prevent background image from repeating */
+            margin: 0; /* Remove default margin */
+            padding: 0; /* Remove default padding */
+            color: white; /* Set text color to white for better visibility */
+        }
+
+        /* Adjust title size and color */
+        h1 {
+            font-size: calc(48px - 30%); /* Reduce title font size by 30% */
+            color: white; /* Set title text color to dark blue */
+            font-weight: bold; /* Make title text bold */
+        }
+
+        /* Adjust heading size and color */
+        h4 {
+            font-size: calc(32px - 30%); /* Reduce heading font size by 30% */
+            color: white; /* Set heading text color to dark blue */
+        }
+
+        /* Adjust text size and color */
+        .col-sm-2 {
+            font-size: calc(20px - 30%); /* Reduce font size for labels by 30% */
+            color:white; /* Set text color to dark blue */
+        }
+
+        .col-sm-10 {
+            font-size: calc(20px - 30%); /* Reduce font size for displayed data by 30% */
+            color: white; /* Set text color to white */
+        }
+        /* Adjust button styles */
+        .btn-primary {
+            background-color: white; /* Set button background color to white */
+            color: black; /* Set button text color to black */
+            padding: 15px 30px; /* Increase button padding */
+            font-size: calc(24px - 30%); /* Reduce button font size by 30% */
+            border-radius: 5px; /* Add border radius to button */
+            border: 1px solid transparent; /* Add border to button */
+            transition: all 0.3s ease; /* Add transition effect for smooth hover */
+        }
+
+            /* Hover effect for buttons */
+            .btn-primary:hover {
+                background-color: #f2f2f2; /* Lighten button background color on hover */
+                color: black; /* Change button text color on hover */
+            }
+
+        /* Adjust link styles */
+        a {
+            color: white; /* Set link color to white */
+            font-size: calc(20px - 30%); /* Reduce link font size by 30% */
+            text-decoration: none; /* Remove underline from links */
+            transition: color 0.3s; /* Add transition effect for smooth hover */
+        }
+
+            /* Hover effect for links */
+            a:hover {
+                color: #f2f2f2; /* Lighten link color on hover */
+            }
+    </style>
+</head>
+
+<h1>Details</h1>
+<div>
+    <h4>Workout</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2" style="font-size: 24px;">
+            @Html.DisplayNameFor(model => model.Name)
+        </dt>
+        <dd class="col-sm-10" style="font-size: 24px;">
+            <!-- Adjust font size here -->
+            @Html.DisplayFor(model => model.Name)
+        </dd>
+        <dt class="col-sm-2" style="font-size: 24px;">
+            @Html.DisplayNameFor(model => model.Description)
+        </dt>
+        <dd class="col-sm-10" style="font-size: 24px;">
+            <!-- Adjust font size here -->
+            @Html.DisplayFor(model => model.Description)
+        </dd>
+    </dl>
+</div>
+
+<div>
+    <a asp-action="Edit" asp-route-id="@Model?.WorkoutId" class="btn btn-primary">Edit</a> |
+    <a asp-action="Index" class="btn btn-primary">Back to List</a>
+</div>

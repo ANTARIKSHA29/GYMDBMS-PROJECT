@@ -1,0 +1,191 @@
+﻿@*@model GYMDBMS.Models.Client
+
+@{
+    ViewData["Title"] = "Delete";
+}
+
+<h1>Delete</h1>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>Client</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Name)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Name)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.ContactNumer)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.ContactNumer)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.FitnessGoal)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.FitnessGoal)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Trainer)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Trainer.TrainerId)
+        </dd>
+    </dl>
+    
+    <form asp-action="Delete">
+        <input type="hidden" asp-for="ClientId" />
+        <input type="hidden" asp-for="TrainerId" />
+        <input type="submit" value="Delete" class="btn btn-danger" /> |
+        <a asp-action="Index">Back to List</a>
+    </form>
+</div>
+*@
+
+@model GYMDBMS.Models.Client
+
+@{
+    ViewData["Title"] = "Delete";
+}
+
+<head>
+    <!-- Add the CSS code for the background image here -->
+    <style>
+        /* Apply background image to the entire page */
+        body {
+            background-image: url("/Images/clientspage.jpg");
+            background-size: cover; /* Cover the entire viewport */
+            background-position: center; /* Center the background image */
+            background-repeat: no-repeat; /* Prevent background image from repeating */
+            margin: 0; /* Remove default margin */
+            padding: 0; /* Remove default padding */
+            color: white; /* Set text color to white */
+        }
+
+        /* Adjust title size and color */
+        h1,  h4 {
+            font-size: calc(48px - 30%); /* Reduce title font size by 30% */
+            color: white; /* Set title text color to white */
+            font-weight: bold; /* Make title text bold */
+        }
+
+        h3{
+            font-size: calc(42px - 30%); /* Reduce title font size by 30% */
+            color: white; /* Set title text color to white */
+            font-weight: bold;
+        }
+
+        /* Adjust definition list styles */
+        dl {
+            margin-top: 20px; /* Add margin to the top of definition list */
+            margin-bottom: 20px; /* Add margin to the bottom of definition list */
+        }
+
+        dt, dd {
+            padding: 10px 0; /* Add padding to definition term and description */
+        }
+
+        dt {
+            font-weight: bold; /* Make definition term bold */
+            font-size: 24px; /* Set definition term font size */
+        }
+
+        dd {
+            font-size: 20px; /* Set definition description font size */
+        }
+
+        /* Adjust button styles */
+        .btn-danger {
+            background-color: #dc3545; /* Set button background color to red */
+            color: white; /* Set button text color to white */
+            padding: 15px 30px; /* Increase button padding */
+            font-size: calc(24px - 30%); /* Reduce button font size by 30% */
+            border-radius: 5px; /* Add border radius to button */
+            border: 1px solid transparent; /* Add border to button */
+            transition: all 0.3s ease; /* Add transition effect for smooth hover */
+            text-decoration: none; /* Remove underline from button */
+            margin-right: 10px; /* Add margin to the right of button */
+        }
+
+            /* Hover effect for buttons */
+            .btn-danger:hover {
+                background-color: #c82333; /* Darken button background color on hover */
+            }
+
+        /* Style for the link */
+        a {
+            color: white; /* Set link color to white */
+            font-size: 24px; /* Set link font size */
+            text-decoration: none; /* Remove underline from links */
+            transition: color 0.3s; /* Add transition effect for smooth hover */
+        }
+
+            /* Hover effect for links */
+            a:hover {
+                color: lightgray; /* Change link color on hover */
+            }
+
+        .btn.btn-primary {
+            background-color: white; /* Set button background color to white */
+            color: deepskyblue; /* Set button text color to deep sky blue */
+            padding: 15px 30px; /* Increase button padding */
+            font-size: calc(24px - 30%); /* Reduce button font size by 30% */
+            border-radius: 5px; /* Add border radius to button */
+            border: 1px solid transparent; /* Add border to button */
+            transition: all 0.3s ease; /* Add transition effect for smooth hover */
+            text-decoration: none; /* Remove underline from button */
+            margin-right: 10px; /* Add margin to button */
+        }
+
+            /* Hover effect for buttons */
+            .btn.btn-primary:hover {
+                background-color: #f2f2f2; /* Lighten button background color on hover */
+                color: white; /* Change button text color on hover */
+            }
+    </style>
+</head>
+
+<h1>Delete</h1>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>Client</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Name)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Name)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.ContactNumer)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.ContactNumer)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.FitnessGoal)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.FitnessGoal)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Trainer)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Trainer.TrainerId)
+        </dd>
+    </dl>
+
+    <form asp-action="Delete">
+        <input type="hidden" asp-for="ClientId" />
+        <input type="hidden" asp-for="TrainerId" />
+        <input type="submit" value="Delete" class="btn btn-danger" /> <!-- Apply button styles -->
+        <a asp-action="Index" class="btn btn-primary">Back to List</a> <!-- Apply button styles -->
+    </form>
+</div>
